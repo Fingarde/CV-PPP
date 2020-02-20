@@ -1,0 +1,176 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this 
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+\begin{document}
+
+\newcommand{\Iconemail}{\includegraphics[width=1em]{email.png}}
+\newcommand{\Icontel}{\includegraphics[width=1em]{tel.png}}
+\newcommand{\Icongithub}{\includegraphics[width=1em]{github.png}}
+\newcommand{\Iconone}{\includegraphics[width=5em]{1.png}}
+\newcommand{\Icontwo}{\includegraphics[width=5em]{2.png}}
+\newcommand{\Iconthree}{\includegraphics[width=5em]{3.png}}
+\newcommand{\Iconfour}{\includegraphics[width=5em]{4.png}}
+\newcommand{\Iconfive}{\includegraphics[width=5em]{5.png}}
+
+%  HEADER----------------------------------
+\header{Bertrand Timothé}% Your name
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{Contact}
+47 Rue des Meuniers
+Clermont-Ferrand
+63000
+~
+\href{tel:+33 651410748}{0651410748 }\Icontel
+~
+\href{mailto:tibertrand1@etu.uca.fr}{\underline{tibertrand1@etu.uca.fr}} \Iconemail
+~
+\href{https://github.com/Fingarde}{\underline{Bertrand Timothé}} \Icongithub
+~
+\section{Languages}
+Français
+\Iconfive
+Anglais
+\Iconfour
+Espagnol
+\Icontwo
+~
+~
+\section{Skills}
+Java 
+\Iconfour
+NodeJS
+\Iconthree
+C
+\Iconthree
+Ruby
+\Iconone
+Shell
+\Iconthree
+%
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2019--2020}
+{DUT Informatique}
+{IUT de Clermont Ferrand}
+{\vspace{-0.3cm}}
+
+%------------------------------------------------
+\entry
+{2017--2019}
+{Baccalauréat technologique {\normalfont STI2D}}
+{Lycée Charles et Adrien Dupuy}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{ Projets Professionels}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{SmartPi}
+{HTML CSS JS}
+{August 2019}
+{C'est un site conçu pour rendre un télévison "connecté", via un support raspberry pi, un menu permettant d'accéder à divers contenues tel que la télévision, netflix, navigateur internet et jeux. Tout ceci via une simple télécommande comprenant un clavier.
+\newline
+\href{https://github.com/Fingarde/SmartPI}{https://github.com/Fingarde/SmartPI}}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Softura}
+{Engineering Intern}
+{June 2018 - August 2018}
+{Creating a live tile control for a signal R backend. }
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{KnowledgeQ}
+{Project Intern}
+{July 2017 - August 2017}
+{Digitizing textbooks to attractive games for K-12 students in USA verified by NCLB and ESSA.}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{United Breweries Ltd}
+{Research Intern}
+{July 2016 - July 2016}
+{A walk in Zymology and human resource handling. }
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+%---------------------------------------------------------------------------------------
+
+--------------------------------------------------
+%	VOLUNTEER EXPERIENCE
+%---------------------------------------------
+
+\section{Volunteer Experience}
+  \vspace{-0.3cm}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{IRCS}
+{Relief Manager}
+{August 2018 - September 2018}
+{volunteered as a Relief manager and pharmacist  during the Kerala floods 2018.}
+\end{entrylist}\
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Govt Of Kerala}
+{Collection Organiser}
+{August 2018 - September 2018}
+{organising and helping at collection centers during the Kerala floods 2018.}
+\end{entrylist}\
+\
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{IRCS}
+{Social Worker}
+{August 2018 - Present}
+{providing help and care to old-age homes and orphanages.}
+\end{entrylist}\
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{IRCS}
+{Relief Manager}
+{August 2019 - September 2019}
+{volunteered as a Relief manager and pharmacist  during the Kerala floods 2019.}
+\end{entrylist}\
+
+\end{document}
